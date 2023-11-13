@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STELLAR</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: url("NEW\ BG.jpg") no-repeat center center fixed;
+        background-size: cover;
+        color: #fffcfc;
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 8px;
+        position: relative;
+      }
+
+      .company {
+        position: absolute;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 120px;
+        margin-top: 50px;
+      }
+
+      .companylogo {
+        position: absolute;
+        width: 30px;
+        margin-left: 90px;
+        margin-top: 35px;
+      }
+
+      .logo {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 900px;
+        height: auto;
+        border-radius: 0;
+      }
+
+      .text {
+        position: absolute;
+        top: 260px;
+        left: 250px;
+        font-size: 100px;
+        font-weight: bold;
+        text-transform: uppercase;
+        white-space: nowrap;
+        line-height: 100px;
+      }
+
+      .buttons {
+        position: absolute;
+        top: 480px;
+        left: 250px;
+        display: flex;
+        gap: 20px;
+      }
+
+      .button {
+        padding: 10px 20px;
+        background-color: rgba(19, 49, 77, 0.692);
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 12px;
+        text-align: center;
+      }
+
+      .moonhal {
+        width: 45%;
+        height: auto;
+        position: absolute;
+        top: 300px;
+        bottom: 0;
+        right: 0;
+        left: 0px;
+        z-index: 1;
+      }
+
+      .moon {
+        width: 43%;
+        height: auto;
+        left: 5px;
+        margin-left: 0px;
+        margin-top: 550px;
+        z-index: 2;
+      }
+
+      .moon-text {
+        position: absolute;
+        top: 810px;
+        left: 510px;
+        font-size: 36px;
+        font-weight: bold;
+      }
+
+      .moon-description {
+        position: absolute;
+        top: 910px;
+        left: 510px;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+
+      .earthhal {
+        width: 45%;
+        height: auto;
+        position: absolute;
+        top: 410px;
+        bottom: 0;
+        right: 0;
+        left: 700px;
+      }
+
+      .earth {
+        width: 37%;
+        height: auto;
+        position: absolute;
+        top: 1000px;
+        bottom: 0;
+        right: 0;
+        margin-right: 45px;
+      }
+
+      .human-made {
+        position: absolute;
+        top: 1200px;
+        left: 650px;
+        font-size: 36px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      .human-made-text {
+        position: absolute;
+        top: 1250px;
+        left: 650px;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+
+      a:hover {
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        background-color: #fff;
+        transition: ease 0.5s;
+      }
+
+      .footer {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color: #fff;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="company">STELLAR</div>
+      <img src="companylogo.png" alt="text" class="companylogo" />
+
+      <div class="text">EXPLORE<br />SPACE</div>
+
+      <div class="buttons">
+        <a href="#" class="button">ABOUT</a>
+        <a href="#" class="button">KNOW MORE</a>
+        <a href="#" class="button">SATELLITE DETAILS</a>
+      </div>
+
+      <img src="Ellipse 4.png" alt="Logo" class="logo" />
+      <img src="EARTH WITH ORBIT.png" alt="Logo" class="logo" />
+
+      <img src="mh.png" alt="text" class="moon" />
+
+      <div class="moon-text">THE<br />MOON</div>
+      <div class="moon-description">
+        <p>Earth's Moon is the brightest and largest object</p>
+        <p>in our night sky. The Moon makes Earth a more livable</p>
+        <p>planet by moderating our home planet's wobble on its axis,</p>
+        <p>leading to a relatively stable climate. It also causes tides,</p>
+        <p>creating a rhythm that has guided humans for thousands of years.</p>
+      </div>
+
+      <img src="eh.png" alt="earth" class="earth" />
+
+      <div class="human-made">HUMAN MADE</div>
+      <div class="human-made-text">
+        <p>An artificial satellite is an object</p>
+        <p>that people have made and launched into orbit</p>
+        <p>using rockets. There are currently over 3,000</p>
+        <p>active satellites orbiting the Earth. The size,</p>
+        <p>altitude, and design of a satellite depend on its purpose.</p>
+      </div>
+    </div>
+  </body>
+</html>
